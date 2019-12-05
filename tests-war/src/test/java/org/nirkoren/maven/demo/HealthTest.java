@@ -31,6 +31,7 @@ public class HealthTest {
 			connection.connect();
 			int code = connection.getResponseCode();
 			Assert.assertEquals(200, code);
+			System.out.println("Love It!")
 		} catch (Exception e) {
 			fail();
 		}
